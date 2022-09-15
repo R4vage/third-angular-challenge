@@ -1,0 +1,618 @@
+{   
+    "posts":[
+        {
+          
+            "imgUrl" :"https://static.euronews.com/articles/stories/06/81/21/62/1100x619_cmsv2_a99aa562-11a7-5b3f-80ab-2e4d5c7e34ae-6812162.jpg",
+            "title" :  "This Tiny Himalayan Eco-Nation Is Finally Reopening To Tourists",
+            "body" : "A common question about Bhutan is, where is it? Wedged between India and Tibet, this Himalayan kingdom has flown under the radar of mass tourism for decades.That’s partly because Bhutan has a unique ethos towards tourism. When this isolated country finally opened to tourists in 1974, it adopted a ‘high value, low impact’ policy. It means there are strict controls on how visitors travel in Bhutan – including how much it costs.",
+            "author" : "Lorna Parkes",
+            "tag" : "culture",
+            "readTime" : 2,
+            "createdAt" : "1663255773022",
+            "id" : "1"
+        },
+        {
+          
+            "imgUrl" :"https://www.theverge.com/_next/image?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FkFF2B8o1ixgblG-ApGswcQ95gTs%3D%2F0x0%3A2040x1360%2F1000x1000%2Ffilters%3Afocal(1020x680%3A1021x681)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F24018951%2F226271_Decoder_Mark_Bergen_002.jpg&w=640&q=75",
+            "title" :  "YouTube: How It Really Works",
+            "body" : "YouTube has always been fascinating to me because it’s such a black box — everyone feels like they know how the platform works, but very few people have a real understanding of the internal politics and tradeoffs that actually drive YouTube’s decisions. Mark’s book is one of the best of its kind I’ve read — not only does he take you inside the company, but he connects the decisions made inside YouTube to the creators who use the platform and the effects it has on them. Keep in mind that for as little as we might know about YouTube, we might know even less about TikTok, which is driving all sorts of platforms, even YouTube, into competing with it.",
+            "author" : "Nilay Patel",
+            "tag" : "tech",
+            "readTime" : 5,
+            "createdAt" : "1663255773000",
+            "id" : "2"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/107107498-16611948211661194818-25037291825-1080pnbcnews.jpg?v=1661194820&w=750&h=422&vtcrop=y",
+            "title" :  "Microsoft And Alaska Airlines Are Working To Make Clean Jet Fuel",
+            "body" : "Sustainable aviation fuel, commonly called SAF, has so far been expensive to produce, but new startups are now creating clean fuels out of carbon at a much cheaper cost. Now, new tax credits for clean fuel production from the recently signed Inflation Reduction Act could propel these companies further faster. Most SAF is made out of carbon from organic vegetable oils, but Twelve, a chemical technology company based in Berkeley, California, is making fuel out of carbon dioxide. It just announced a collaboration with Alaska Airlines and Microsoft to advance production and use of Twelve’s E-Jet, a lower-carbon jet fuel.",
+            "author" : "Diana Olick",
+            "tag" : "startups",
+            "readTime" : 5,
+            "createdAt" : "1663255772000",
+            "id" : "3"
+        },
+        {
+            
+            "imgUrl" :"https://static.independent.co.uk/2022/06/28/17/NerdWallet-Millennial-Money-Mental-Health-Access_58906.jpg?quality=75&width=990&auto=webp&crop=982:726,smart",
+            "title" :  "Millennial Money: Getting Therapy When Cost Is A Barrier",
+            "body" : "The race to find mental health treatment can feel like a marathon when you may not have the energy or ability to even make it to the starting line. You may be faced with limited affordable options and a lack of available therapists.",
+            "author" : "AP News Wire",
+            "tag" : "self",
+            "readTime" : 3,
+            "createdAt" : "1663255771000",
+            "id" : "4"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/107117458-1663064340691-gettyimages-1421653092-myke0535_29198f71-c205-45c3-a53d-e2ed9aa3c49a.jpeg?v=1663134471&w=740&h=416&ffmt=webp",
+            "title" :  "Bolsonaro Vs. Lula: Brazil’s Most Polarized Presidential Race In Decades",
+            "body" : "Brazilian President Jair Bolsonaro is sowing doubt about the validity of the country’s electronic voting system ahead of the first round of elections, ratcheting up fears that he may refuse to accept defeat if the vote doesn’t go his way — much like his political idol, former U.S. President Donald Trump. The first round of Brazil’s presidential elections, scheduled for Oct. 2, sees Bolsonaro come up against his political nemesis and former leftist president Luiz Inacio Lula da Silva in what has become Brazil’s most polarized race in decades. Lula has consistently been polling comfortably ahead of the far-right former army captain in both the first round and an expected run-off, although some opinion polls have shown the incumbent narrowing the deficit in recent days.",
+            "author" : "Sam Meredith",
+            "tag" : "politics",
+            "readTime" : 3,
+            "createdAt" : "1663255761000",
+            "id" : "5"
+        },
+        {
+            
+            "imgUrl" :"https://www.designnews.com/sites/designnews.com/files/styles/article_featured_standard/public/Jabil%20Sustainability.jpg?itok=igPvxY6l",
+            "title" :  "Engineers Have A Lot to Consider For Design For Sustainability",
+            "body" : "Consumer interest in sustainable choices continues to grow. According to the 2021 Global Sustainability Study conducted by Simon-Kucher & Partners, sustainability is considered to be an important purchase criterion for 60 percent of global consumers, and 61% for U.S. consumers. A 2022 Deloitte survey of UK adults found that 40% of respondents have chosen brands that have environmentally sustainable practices/values, an increase of 6% from its 2021 survey. And 30% have chosen low carbon emission and/or shared modes of transport, up 11% from 2021.",
+            "author" : "Daphne Allen",
+            "tag" : "design",
+            "readTime" : 1,
+            "createdAt" : "1663255751000",
+            "id" : "6"
+        },
+        {
+            
+            "imgUrl" :"https://media.cnn.com/api/v1/images/stellar/prod/220826164522-02-monkeypox-vaccine-220815.jpg?c=16x9&q=h_720,w_1280,c_fill",
+            "title" :  "Monkeypox In The United States Fast Facts",
+            "body" : "Monkeypox is a poxvirus. It generally causes pimple- or blister-like lesions and flu-like symptoms such as fever. The disease is rarely fatal. Monkeypox spreads through close contact. This includes direct physical contact with lesions as well as “respiratory secretions” shared through face-to-face interaction and touching objects that have been contaminated by monkeypox lesions or fluids. The virus may also pass to a fetus through the placenta. Anyone can become ill from monkeypox, but the US Centers for Disease Control and Prevention (CDC) says that more than 99% of monkeypox cases in the United States in the 2022 outbreak have been among men who have sex with men. However, monkeypox is not generally considered a sexually transmitted disease.",
+            "author" : "CNN",
+            "tag" : "health",
+            "readTime" : 5,
+            "createdAt" : "1663255741000",
+            "id" : "7"
+        },
+        {
+            
+            "imgUrl" :"https://www.sciencenews.org/wp-content/uploads/2022/09/091422_lg_saturn_feat-1341x776.jpg",
+            "title" :  "Saturn’s Rings And Tilt Might Have Come From One Missing Moon",
+            "body" : "A single, doomed moon could clear up a couple of mysteries about Saturn. This hypothetical missing moon, dubbed Chrysalis, could have helped tilt Saturn over, researchers suggest September 15 in Science. The ensuing orbital chaos might then have led to the moon’s demise, shredding it to form the iconic rings that encircle the planet today. “We like it because it’s a scenario that explains two or three different things that were previously not thought to be related,” says study coauthor Jack Wisdom, a planetary scientist at MIT. “The rings are related to the tilt, who would ever have guessed that?”",
+            "author" : "Lisa Grossman",
+            "tag" : "science",
+            "readTime" : 3,
+            "createdAt" : "1663255731000",
+            "id" : "8"
+        },
+        {
+            "imgUrl" :"https://static.euronews.com/articles/stories/06/98/56/42/808x454_cmsv2_df9f03bd-cf8c-5b95-a104-80c36b82ed00-6985642.jpg",
+            "title" :  "Hong Kong Embraces Art To Enrich Quality of Life",
+            "body" : "The M+ museum of visual culture, the flagship of the new West Kowloon Cultural District, has drawn more than 1 million visitors since it opened late last year. Its light murals are a new landmark for the Hong Kong skyline. And the new Hong Kong Palace Museum is exhibiting decorative works including an 18th century ice chest from the Qing dynasty. ",
+            "author" : "Euronews",
+            "tag" : "culture",
+            "readTime" : 3,
+            "createdAt" : "1663255721000",
+            "id" : "9"
+        },
+        {
+            "imgUrl" :"https://source.unsplash.com/random/200x200?sig=1",
+            "title" :  "The HP Elite Dragonfly Chromebook Is Incredible — With One Big Problem",
+            "body" : "t is a beautiful device. It’s fast, with enterprise-grade specs — one of the first Chromebooks, in fact, to support Intel’s vPro platform. And yet, the exceptional nature of the chassis really lays bare, more so than any other device I’ve tested this year, one of the biggest complaints I have about the current Chromebook space: ChromeOS. As much as I love using ChromeOS, and as much progress as it’s made over the years, it’s not ready for the business world — and it’s not ready for devices that, even in their cheapest form, cost well over $1,000.",
+            "author" : "Mónica Chin",
+            "tag" : "tech",
+            "readTime" : 1,
+            "createdAt" : "1663255621200",
+            "id" : "10"
+        },
+        {
+            
+            "imgUrl" :"https://cdn.geekwire.com/wp-content/uploads/2021/12/2021-Madrona-Team-Photo-Anniversary-Party-1-768x512.jpg",
+            "title" :  "Madrona Venture Group Raises $690M To Back Startups In Seattle",
+            "body" : "Despite a shaky macroeconomic environment, the latest fundraise “came together very quickly,” said Matt McIlwain, managing director of the 27-year-old firm. It’s one of the largest funds ever for a Pacific Northwest venture capital firm. While the dollar amount is nearly a 40% jump compared to Madrona’s last fundraise in late 2020, McIlwain said the firm still plans on backing a similar amount of companies from its ninth fund — around 40 venture investments total. “You need more dollars per company, to support them in this phase of the broader venture capital ecosystem,” McIlwain said. The U.S. venture capital market set records last year, with $330 billion invested across more than 17,000 deals.",
+            "author" : "Taylor Soper",
+            "tag" : "startups",
+            "readTime" : 2,
+            "createdAt" : "1663255621100",
+            "id" : "11"
+        },
+        {
+            
+            "imgUrl" :"https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_image__small__webp/public/temas/yoga_jpg.webp",
+            "title" :  "Why The International Day Of Yoga Is Meaningless",
+            "body" : "Thousands of yoga fans, fitness professionals and activewear ambassadors will take to social media right now – on International Day of Yoga (IDY) – to pose for (and post) pictures of themselves performing yoga postures, together with #liveyourbestlife hashtags. Every year it’s the same. It’s true that many of the posts will include captions about how yoga has made life more bearable. The same has been true for me as someone who has practised yoga in some shape or form in the 25 years since I first stepped on a mat. But this celebration of modern yoga is at odds with the ethics of what the practice was meant to be about. It’s so hard to watch. I usually turn my phone off and wait for it to go away.",
+            "author" : "Nadia Gilani",
+            "tag" : "self",
+            "readTime" : 3,
+            "createdAt" : "1663255521000",
+            "id" : "12"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/107078968-1655901219637-gettyimages-1241452240-AA_22062022_773991.jpeg?v=1662627161&w=740&h=416&ffmt=webp",
+            "title" :  "Kyiv Launches Surprise Counterattacks Against Russians",
+            "body" : "Ukraine appears to have surprised Russia with a series of counterattacks in the northeast of the country with military strategists saying Kyiv is likely to have taken advantage of a recent redeployment of Russian troops to defend against a counteroffensive in the south. On Thursday night local time, the General Staff of the Armed Forces of Ukraine posted a statement from President Volodymyr Zelenskyy indicating that Ukrainian troops had advanced all the way to Balakliya, a town about 35 miles (56 km) southeast of Kharkiv. CNBC could not independently confirm the General Staff’s claims. As late as Thursday, pro-Russian blogger Danil Bezsonov claimed that Balakliya “is not taken, the enemy is trying to enter from different sides.”",
+            "author" : "Holly Ellyatt",
+            "tag" : "politics",
+            "readTime" : 4,
+            "createdAt" : "1663255519000",
+            "id" : "13"
+        },
+        {
+            
+            "imgUrl" :"https://www.dexigner.com/images/news/xw/33912.jpg",
+            "title" :  "Design Show Australia",
+            "body" : "Design Show Australia is the nation's largest and most significant exhibition for interiors, architecture and fit-out solutions - and home to Australia's Next Top Designer showcase and the prestigious Design Editor's Choice Awards. Showcasing the world's leading brands, manufacturers, superstar designers and future design trends, it's the event of choice for architects, designers, developers, builders, specifiers and buyers working across all sectors of design and construction - from luxury homes and high-rise residential to offices, hotels, restaurants and bars, retail projects, education and healthcare facilities, and other commercial projects.",
+            "author" : "Design Show",
+            "tag" : "design",
+            "readTime" : 1,
+            "createdAt" : "1663255518000",
+            "id" : "14"
+        },
+        {
+            
+            "imgUrl" :"https://www.paho.org/sites/default/files/styles/top_hero/public/2022-07/coronavirus-ilustracion.jpg?h=4aea44c5&itok=J0u88_cY",
+            "title" :  "End Of Covid-19 Pandemic Is In Sight, WHO Director-General Says",
+            "body" : "The world has never been in a better position to end the Covid-19 pandemic, Tedros Adhanom Ghebreyesus, director-general of the World Health Organization, said in a news briefing in Geneva on Wednesday. “Last week, the number of weekly reported deaths from Covid-19 was the lowest since March 2020,” he said. “We have never been in a better position to end the pandemic. We’re not there yet, but the end is in sight. “A marathon runner does not stop when the finish line comes into view; she runs harder with all the energy she has left,” Tedros said. “So must we. We can see the finish line, we are in a winning position, but now is the worst time to stop running. Now is the time to run harder and make sure we cross the line and reap the rewards of all our hard work.”",
+            "author" : "Naomi Thomas",
+            "tag" : "health",
+            "readTime" : 3,
+            "createdAt" : "1663255517000",
+            "id" : "15"
+        },
+        {
+            
+            "imgUrl" :"https://www.sciencenews.org/wp-content/uploads/2022/09/091322_JR_microscope-experiment_feat-1380x776.jpg",
+            "title" :  "Falling Objects In Orbit Show Einstein Was Right — Again",
+            "body" : "Gravity doesn’t discriminate. An experiment in orbit has confirmed, with precision a hundred times greater than previous efforts, that everything falls the same way under the influence of gravity. The finding is the most stringent test yet of the equivalence principle, a key tenet of Einstein’s theory of general relativity. The principle holds to about one part in a thousand trillion, researchers report September 14 in Physical Review Letters. The idea that gravity affects all things equally might not seem surprising. But the slightest hint otherwise could help explain how general relativity, the foundational theory of gravity, meshes with the standard model of particle physics, the theoretical framework that describes all fundamental particles of matter. General relativity is a classical theory that sees the universe as smooth and continuous, whereas the standard model is a quantum theory involving grainy bits of matter and energy. Combining them into a single theory of everything has been an unfulfilled dream of scientists extending back to Einstein (SN: 1/12/22).",
+            "author" : "James R. Riordon",
+            "tag" : "science",
+            "readTime" : 4,
+            "createdAt" : "1663255516000",
+            "id" : "16"
+        },
+        {
+            
+            "imgUrl" :"https://static.euronews.com/articles/stories/06/98/56/42/808x454_cmsv2_df9f03bd-cf8c-5b95-a104-80c36b82ed00-6985642.jpg",
+            "title" :  "Sea Of Rainbow Foam Transforms London",
+            "body" : "In a public space in London, people gathered to watch a cascade of colourful foam transform an outdoor stairwell into an art installation. The island of foam was part of a free art festival in the UKs capital. The German artist Stephanie Lüning created the sea of rainbow in her first show in the United Kingdom. One of the attendees, 11-year-old Yemisi Ajakaiye, described the event as amazing.",
+            "author" : "Cinzia Rizzi",
+            "tag" : "culture",
+            "readTime" : 2,
+            "createdAt" : "1663255516000",
+            "id" : "17"
+        },
+        {
+            
+            "imgUrl" :"https://www.theverge.com/_next/image?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FN8uXLsRu8Bo6fM57MhpN_GrJYxE%3D%2F0x0%3A2040x1360%2F2000x1333%2Ffilters%3Afocal(1020x680%3A1021x681)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F9393917%2Fjbareham_170921_2006_0316.jpg&w=750&q=75",
+            "title" :  "We Didn’t Need Another Pixelbook",
+            "body" : "Ever since the first Chromebook Pixel hit shelves in 2013, it’s had a special place in the ChromeOS community’s hearts. It wasn’t just a product — it was a sneak peek at what the Chromebook market could become. Unfortunately for those fans, the Pixelbook line is no more. A new Pixelbook (the spiritual successor to the original Chromebook Pixel) was “far along in development and expected to debut next year,” my colleagues Alex Heath and David Pierce reported earlier this week. But the project has been cut “as part of recent cost-cutting measures.”",
+            "author" : "James Bareham",
+            "tag" : "tech",
+            "readTime" : 2,
+            "createdAt" : "1663255516000",
+            "id" : "18"
+        },
+        {
+            
+            "imgUrl" :"https://cdn.geekwire.com/wp-content/uploads/2022/09/FarHomes-Founders-768x341.jpg",
+            "title" :  "DoorDash Co-Founder Invests In New Startup Building Portal For Mexico",
+            "body" : "Far Homes emerged from stealth mode Tuesday and announced it raised $2.25 million. The round was led by PSL Ventures, with participation from heavy-hitting angels including Redfin CEO Glenn Kelman and DoorDash co-founder Evan Moore, who was also the former vice president of product at Opendoor. The Seattle-based startup has an online listings portal to buy and sell homes in Mexico, with plans to eventually expand to new market geographies. It teamed up with property management firms and real estate agents in the country to catalogue more than 230 properties available for purchase. The properties are mostly in vacation zones, ranging from beach-front mansions to single-bedroom condos. Prices vary from about $100,000 to $3.6 million.",
+            "author" : "Nate Bek",
+            "tag" : "startups",
+            "readTime" : 2,
+            "createdAt" : "1663255515000",
+            "id" : "19"
+        },
+        {
+            
+            "imgUrl" :"https://static.independent.co.uk/2022/04/26/15/newFile-8.jpg?quality=75&width=990&auto=webp&crop=982:726,smart",
+            "title" :  "Lush Is Giving Away 100,000 Free Bath Bombs",
+            "body" : "Lush is giving away 100,000 free bath bombs to mark World Bath Bomb Day on Wednesday 27 April. Water babies keen on getting their hands on one of the free fizzy treats should head to their nearest branch of the fragrant cosmetics retailer on Wednesday to pick up their free sample to take home while stocks last. Shoppers wanting to take their bathing regime to the next level also have the opportunity to book a 30-minute bathing experience in one of three Lush spa locations. Available for a limited time, branches in Bath’s Union Street, London’s Oxford Street and Liverpool’s Church Street will offer the new self-led Book a Bath treatment which includes a 15-minute consultation, the use of select products tailored to your skin and a soundtrack to lay back and chill out.",
+            "author" : "Joanna Whitehead",
+            "tag" : "self",
+            "readTime" : 2,
+            "createdAt" : "1663255515000",
+            "id" : "20"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/106896435-1623670329882-gettyimages-1323375680-pa208178.jpeg?v=1623670372&w=740&h=416&ffmt=webp",
+            "title" :  "World Reacts To Queen Elizabeth II’s Death",
+            "body" : "World leaders and royalty offered tributes to Queen Elizabeth II, after Britain’s longest-serving monarch died Thursday at age 96. The queen died “peacefully” at Balmoral Castle in Scotland, the British royal family said. She was last photographed on Tuesday during the appointment of Liz Truss as prime minister of the United Kingdom.",
+            "author" : "Jacob Pramuk",
+            "tag" : "politics",
+            "readTime" : 2,
+            "createdAt" : "1663255515000",
+            "id" : "21"
+        },
+        {
+            
+            "imgUrl" :"https://centaur-wp.s3.eu-central-1.amazonaws.com/designweek/prod/content/uploads/2022/09/08155502/class.jpg",
+            "title" :  "Design Studios Collaborate On Training Initiative",
+            "body" : "A weekend studio experience called Werkhouse aims to give early-career creatives from underrepresented backgrounds a step up the design industry ladder. Werkhouse was launched in 2017 by a small group of design professionals from Bristol and Bath with the aim of helping young creatives succeed in the design industry. It is open to all design disciplines, from product design, graphic design to illustration and digital design.",
+            "author" : "Abbey Bamford",
+            "tag" : "design",
+            "readTime" : 2,
+            "createdAt" : "1663255515000",
+            "id" : "22"
+        },
+        {
+            
+            "imgUrl" :"https://cdnuploads.aa.com.tr/uploads/Contents/2020/08/19/thumbs_b_c_e186fa8d5c168e8f346b2e33c2115dea.jpg?v=222352",
+            "title" :  "Why Getting The Flu Vaccine Is Important For Young And Older Adults",
+            "body" : "Even if you consider yourself to be “young and healthy,” you’re still at risk for complications and hospitalization from the flu, and older adults have an even higher risk. Here’s why it’s so crucial to get your flu shot every year, no matter your age. Dr. Elka Jacobson:Everybody should get the flu vaccine. Sometimes there are surprises with who gets sick and it's not always the elderly and it's not always those who have diseases that put them in the high risk categories. Sometimes it is young people. Dr. Stacy De-Lin:The risks of not getting a flu shot can be really serious. There are about 60,000 people who die every year from the flu, those are across all age ranges. Dr. Calvin Sun:Flu goes all over your body and it dehydrates you because your body has this tremendous immune response trying to fight off this virus.",
+            "author" : "Michael Ascher",
+            "tag" : "health",
+            "readTime" : 2,
+            "createdAt" : "1663255514000",
+            "id" : "23"
+        },
+        {
+            
+            "imgUrl" :"https://www.sciencenews.org/wp-content/uploads/2022/09/091322_JB_camo_feat-1380x776.jpg",
+            "title" :  "Not All Camouflage Is Equal. Here Are Prey Animal's Best Options",
+            "body" : "From crabs to caterpillars, a wide range of animals successfully use camouflage to hamper detection by hungry predators. But some concealment strategies are more effective than others, a new study suggests. The analysis compiles and synthesizes data from scores of studies on animal camouflage. Comparisons between different camouflaging methods show that masquerading as specific objects in the environment is the best way to go unseen, scientists report September 14 in Proceedings B of the Royal Society. ",
+            "author" : "Jake Buehler",
+            "tag" : "science",
+            "readTime" : 1,
+            "createdAt" : "1663255514000",
+            "id" : "24"
+        },
+        {
+            
+            "imgUrl" :"https://media.istockphoto.com/photos/crowd-enjoying-durga-puja-festival-at-kolkata-west-bengal-india-picture-id611869108",
+            "title" :  "Hundreds in India's Kolkata celebrate Hindu festival's UNESCO status",
+            "body" : "Hundreds join a procession in India's eastern megacity of Kolkata to celebrate the Hindu festival of Durga Puja's special UNESCO status. Durga Puja is a 10-day festival celebrating Goddess Durga with large-size installations and idols of goddess Durga. The festival was inscribed in 2021 on UNESCO's 'Representative List of the Intangible Cultural Heritage of Humanity'. This list 'includes forms of expression that testify to the diversity of intangible heritage and raises awareness of its importance.",
+            "author" : "Julian Marc",
+            "tag" : "culture",
+            "readTime" : 2,
+            "createdAt" : "1663255514000",
+            "id" : "25"
+        },
+        {
+            
+            "imgUrl" :"https://www.theverge.com/_next/image?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FX_oNegt6PcDsVLD5kqOHjmB7EDo%3D%2F0x0%3A918x612%2F2000x1333%2Ffilters%3Afocal(459x306%3A460x307)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F24025255%2F7a4727f715171fb64ec083059708456a22773c20.jpg&w=750&q=75",
+            "title" :  "Uncharted: Legacy Of Thieves Is Coming To PC Next Month",
+            "body" : "The PC version of the collection will have a number of PC-specific enhancements, including a “reimagined UI,” ultrawide monitor support, and the ability to adjust the quality of things like models and textures, as outlined by Naughty Dog’s Rochelle Snyder in a blog post. The game will, of course, work with Sony’s DualShock 4 and DualSense controllers (though you’ll need a wired DualSense connection to take advantage of features like haptic feedback and adaptive triggers), but Snyder also promised that it will support “a wide range of other gamepads and keyboard and mouse.”",
+            "author" : "Jon Porter",
+            "tag" : "tech",
+            "readTime" : 2,
+            "createdAt" : "1663255513000",
+            "id" : "26"
+        },
+        {
+          
+            "imgUrl" :"https://cdn.geekwire.com/wp-content/uploads/2022/09/Booster_active_fueling-768x512.jpg",
+            "title" :  "The Startup Booster Expands To Portland And Other Cities",
+            "body" : "Booster Fuels, a startup that offers mobile gas fueling and electric vehicle charging, is rolling out a fleet of its mobile fueling trucks in three new cities. The startup partners with Amazon, UPS, Imperfect Foods, and others to help provide on-the-go fuel. It is expanding to Portland, Ore., Philadelphia, and Boston. In October, the company will begin operating in Phoenix. Booster, which competes with well-funded startups like Yoshi, raised $125 million in May to boost its fleet of vehicles. The company works with large enterprises to fuel up their delivery fleets, and also provides fuel to employee vehicles in private corporate parking lots. It also launched a consumer business and offers delivery of renewable diesel and on-demand electric vehicle charging.",
+            "author" : "Nate Bek",
+            "tag" : "startups",
+            "readTime" : 2,
+            "createdAt" : "1663255513000",
+            "id" : "27"
+        },
+        {
+          
+            "imgUrl" :"https://static.independent.co.uk/2020/12/16/08/newFile-14.jpg?quality=75&width=990&auto=webp&crop=982:726,smart",
+            "title" :  "How To Help Support Vulnerable People At Christmas",
+            "body" : "The coronavirus pandemic continues to loom over our lives in 2021, and the emergence of the new omicron variant has thrown plans for Christmas into disarray once again. Covid infections have increased across the UK in the past two weeks, and the government has reintroduced virus measures such as mandatory face masks, vaccine passports and working from home in a bid to slow the spread. British adults are also being urged to get their Covid booster jabs to increase protection against the virus. As more people continue to get jabbed and undergo restrictions once again, there are fears that many will be left struggling to pay for basic needs, like energy and food this winter as costs rise. As of 24 November, the Trussell Trust said it distributed more than 5,100 food parcels across the UK every day in the past six months.",
+            "author" : "Jo Whitehead",
+            "tag" : "self",
+            "readTime" : 2,
+            "createdAt" : "1663255513000",
+            "id" : "28"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/107115097-16625886971662588694-25332134392-1080pnbcnews.jpg?v=1662588696&w=750&h=422&vtcrop=y",
+            "title" :  "Putin Claims The U.S. Wants To Preserve Global ‘Dictatorship’",
+            "body" : "Russian President Vladimir Putin on Wednesday accused the U.S. of wanting to maintain a “dictatorship” over global affairs at the expense of Europe and the rest of the world. Putin slammed the West repeatedly during a speech before business leaders gathered in far eastern Russia, saying sanctions imposed on Moscow for its invasion of Ukraine were a “danger” to the whole world and left Europe worse off. “The pandemic has been replaced by new challenges of a global nature, carrying a threat to the whole world, I’m talking about the sanctions rush in the West and the West’s blatantly aggressive attempts to impose their modus vivendi on other countries, to take away their sovereignty, to submit them to their will,” Putin told delegates at Russia’s Eastern Economic Forum in the port city of Vladivostok on Russia’s Pacific coast.",
+            "author" : "Holly Ellyatt",
+            "tag" : "politics",
+            "readTime" : 2,
+            "createdAt" : "1663255503000",
+            "id" : "29"
+        },
+        {
+            
+            "imgUrl" :"https://centaur-wp.s3.eu-central-1.amazonaws.com/designweek/prod/content/uploads/2022/09/01153700/product-.jpg",
+            "title" :  "Personal Hygiene Brand Wype Opts For “Cheeky” New Identity",
+            "body" : "Among Equals has rebranded “below-the-waist wellness company” Wype, with a “cheeky ass-terisk symbol” at its centre. Wype is a gel that can be applied to regular toilet paper, changing it into something similar to a wet wipe. Since actual wet wipes have a negative effect on the environment when flushed down a toilet, Wype aims to offer an eco-friendly alternative.",
+            "author" : "Abbey Bamford",
+            "tag" : "design",
+            "readTime" : 2,
+            "createdAt" : "1663255503000",
+            "id" : "30"
+        },
+        {
+            
+            "imgUrl" :"https://media.cnn.com/api/v1/images/stellar/prod/180729123628-09-picky-eating-0729.jpg?q=w_2080,h_1387,x_0,y_0,c_fill/w_480",
+            "title" :  "How To Put A Crying Baby To Sleep, The Scientific Way",
+            "body" : "It’s every parent’s nightmare – an exhausted baby who just won’t stop crying when it’s time go to sleep. Even worse? The baby finally falls asleep in your arms but wakes again and starts sobbing when laid in the crib. The solution is a magic pair of numbers – five and eight – according to Japanese researchers who did experiments with 21 moms trying to lull their little ones into slumber. Here’s how it works: Walk your baby for a minimum of five minutes with no sudden movements, at which time the little one will be calm, if not asleep, according to the study. Then sit and hold baby for another eight minutes before making a gentle crib transfer",
+            "author" : "Sandee LaMotte",
+            "tag" : "health",
+            "readTime" : 2,
+            "createdAt" : "1663255503000",
+            "id" : "31"
+        },
+        {
+            
+            "imgUrl" :"https://www.sciencenews.org/wp-content/uploads/2022/09/090922_sg_blursday_feat-1341x776.jpg",
+            "title" :  "How Living In A Pandemic Distorts Our Sense Of Time",
+            "body" : "Time hasn’t made much sense since spring 2020 for many people, myself included. In February 2020, during the Before Times, my family traveled to Barcelona, a relatively carefree trip that now feels like a lifetime ago. Other times, I feel like I blinked, and three years vanished. How can my son be starting fifth grade? He was a second grader just a minute ago. Welcome to “blursday.” Back when the pandemic started, the term hit the zeitgeist. The word captured that sense of time disintegrating as our worlds and routines turned upside down (SN: 9/14/20). Days melted together, then weeks, then years. ",
+            "author" : "Sujata Gupta",
+            "tag" : "science",
+            "readTime" : 2,
+            "createdAt" : "1663255503000",
+            "id" : "32"
+        },
+        {
+            
+            "imgUrl" :"https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/07/28/16590191336766.jpg",
+            "title" :  "Mykolaiv theatre resumes its programme in spite of Russian bombardment",
+            "body" : "This theatre's backstage area might look like any other before a show, as actors eagerly make their final preparations before taking to the stage. But in this case, the theatre is in Mykolaiv, and tonight’s performance is being held in a warzone. Like other Ukrainian theatres, it closed at the start of the invasion. Now, six months into the bloodiest conflict on the continent in decades, the Mykolaiv Art Drama Theatre has opened its doors to the public once again, albeit in the basement.",
+            "author" : "Julian Marc",
+            "tag" : "culture",
+            "readTime" : 2,
+            "createdAt" : "1663255403000",
+            "id" : "33"
+        },
+        {
+            
+            "imgUrl" :"https://www.theverge.com/_next/image?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FusCE3ZlpeteC_vkWc-CkFDYvOxk%3D%2F0x0%3A2040x1360%2F1000x1000%2Ffilters%3Afocal(1020x680%3A1021x681)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F13718849%2FVRG_ILLO_3176_001.jpg&w=750&q=75",
+            "title" :  "The Real-World AI Issue",
+            "body" : "The term “artificial intelligence” was coined fairly recently in 1955, but the idea of smart machines that do our bidding has far deeper roots, going back to the ancient myths of Greece, India, and China. Perhaps that’s why AI has such an impact on our imagination, and why, in recent years, there’s been so much hype surrounding the technology.",
+            "author" : "James Vincent",
+            "tag" : "tech",
+            "readTime" : 2,
+            "createdAt" : "1663255403000",
+            "id" : "34"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/107094459-1658900668099-MPV05128.JPG?v=1659074846&w=740&h=416&ffmt=webp",
+            "title" :  "They Dropped Out Of Stanford To Run A Startup. Now It’s Worth Millions",
+            "body" : "“When we started this 12 months ago, every conversation we had was, ‘You’re totally out of your mind, this is never going to work,’” said teenage CEO Aadit Palicha. Yet, Palicha’s company has managed to prove those doubters wrong — it’s now nearing unicorn status and is one of India’s fastest-growing quick commerce apps. A unicorn is a startup valued at more than $1 billion. Zepto is a startup that promises to deliver groceries in less than 10 minutes. Despite being just one of many businesses to join the instant commerce wave, it has already caught the eyes of investors.",
+            "author" : "Goh Chiew Tong",
+            "tag" : "startups",
+            "readTime" : 2,
+            "createdAt" : "1663255403000",
+            "id" : "35"
+        },
+        {
+            
+            "imgUrl" :"https://static.independent.co.uk/2021/10/19/07/15162955-eb0cf6a1-11fb-4b43-84cf-33f7666b60f4.jpg?quality=75&width=990&auto=webp&crop=982:726,smart",
+            "title" :  "Nothing Is Ever Good Enough For My Father – Should I Give Up Trying?",
+            "body" : "“I’m 55, and nothing I have done has ever been right or good enough for my father, who is 75. Over time, I’ve learned what to do and not do around him to avoid confrontation; he’s not an easy man to get along with. “For example, when I was in my 20s, I had sold my car to buy a foreign sports car – but that made my father so furious, he wouldn’t talk to me for four years. He moved without telling me, and only through family friends did I eventually find out where he had moved to. They encouraged me to contact him and we met for breakfast, which was a very awkward affair, although it did start us talking and we gradually got close again.",
+            "author" : "Fiona Caine",
+            "tag" : "self",
+            "readTime" : 2,
+            "createdAt" : "1663255403000",
+            "id" : "36"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/107114374-16625067761662506773-25315196390-1080pnbcnews.jpg?v=1662506776&w=750&h=422&vtcrop=y",
+            "title" :  "Liz Truss, UK's New PM Promises Immediate Action On Energy Bills",
+            "body" : "Britain’s new prime minister, Liz Truss, made her first speech Tuesday, promising to tackle rising energy bills and the cost-of-living crisis in the next couple of days. “I will deal with the energy crisis caused by Putin’s war,” Truss told reporters on the steps of 10 Downing Street. “I will take action this week to deal with energy bills and to secure our future energy supply,” she said. Outside her new prime ministerial home in London, Truss also said she had a “bold plan” to grow the economy through tax cuts and reform that would “boost business-led growth and investment.”",
+            "author" : "Hannah Ward-Glenton",
+            "tag" : "politics",
+            "readTime" : 2,
+            "createdAt" : "1663255402000",
+            "id" : "37"
+        },
+        {
+            
+            "imgUrl" :"https://centaur-wp.s3.eu-central-1.amazonaws.com/designweek/prod/content/uploads/2022/08/25163904/new-range-of-cans.jpg",
+            "title" :  "Tuborg Amplifies “Cultural Icon” Across New Branding",
+            "body" : "Danish beer brand Tuborg has a new identity which looks to celebrate the main brand symbol, the Danish clockman. Leeds-based studio Robot Food was appointed following a three-way pitch in 2021. Before now, Tuborg’s branding had not been updated for decades, according to Robot Food creative director Ben Brears. Brears explains that, because Tuborg is a “Danish cultural icon” and Robot Food is UK-based studio, the design team was conscious about offering “a fresh perspective” while also being respectful of the brand. Rather than executing a complete brand overhaul, Robot Food attempted to “amplify existing assets in new ways”, says the studio’s managing director David Timothy.",
+            "author" : "Abbey Bamford",
+            "tag" : "design",
+            "readTime" : 2,
+            "createdAt" : "1663255402000",
+            "id" : "38"
+        },
+        {
+            
+            "imgUrl" :"https://media.cnn.com/api/v1/images/stellar/prod/220914122628-03-golden-goose-science-awards-cone-snail.jpg?c=16x9&q=h_720,w_1280,c_fill",
+            "title" :  "The Rule-Breaking Paper Microscope That Costs $1.75 To Make",
+            "body" : "Discoveries involving a lab accident, venomous snails and a scientific instrument made from paper are some of the obscure, quirky or convoluted advances honored Wednesday with awards that celebrate research that ultimately had a big, if unexpected, impact on society. Three teams of scientists won 2022 Golden Goose Awards, a prize organized by the American Association for the Advancement of Science, for their research projects that morphed from “wait, what?” moments to pioneering breakthroughs.",
+            "author" : "Katie Hun",
+            "tag" : "health",
+            "readTime" : 2,
+            "createdAt" : "1663255402000",
+            "id" : "39"
+        },
+        {
+            
+            "imgUrl" :"https://www.sciencenews.org/wp-content/uploads/2021/07/072221_LG-HT_star-age_feat.jpg",
+            "title" :  "How Do Scientists Calculate The Age Of A Star?",
+            "body" : "We know quite a lot about stars. After centuries of pointing telescopes at the night sky, astronomers and amateurs alike can figure out key attributes of any star, like its mass or its composition. To calculate a star’s mass, just look it its orbital period and do a bit of algebra. To determine what it’s made of, look to the spectrum of light the star emits. But the one variable scientists haven’t quite cracked yet is time. “The sun is the only star we know the age of,” says astronomer David Soderblom of the Space Telescope Science Institute in Baltimore. “Everything else is bootstrapped up from there.”",
+            "author" : "Helen Thompson",
+            "tag" : "science",
+            "readTime" : 2,
+            "createdAt" : "1663255402000",
+            "id" : "40"
+        },
+        {
+            
+            "imgUrl" :"https://www.tangol.com/blog/Fotos/Notas/lo-que-tenes-que-saber-de-un-tipico-asado-argentino_1049_202011260625490.PNG",
+            "title" :  "Argentine Chefs Compete To Grill The Best Asado",
+            "body" : "Cooks from across Argentina fired up their grills on Sunday to compete to produce the best asado, the country's traditional barbeque. The annual federal tournament held on Buenos Aires' 9 de Julio Avenue brings together representatives from each of Argentina's 23 provinces as well as the capital. Their grilled dishes were taste-tested by judges in the shadow of the city's iconic Obelisk to be named the best in a largely omnivorous country which produces some of the best quality meat in the world.",
+            "author" : "Julian Marc",
+            "tag" : "culture",
+            "readTime" : 2,
+            "createdAt" : "1663255302000",
+            "id" : "41"
+        },
+        {
+            
+            "imgUrl" :"https://www.theverge.com/_next/image?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FLWqnXn1pIFFkIuau4euHLDsp59A%3D%2F0x0%3A3000x2000%2F1000x1000%2Ffilters%3Afocal(1500x1000%3A1501x1001)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F13695430%2Facastro_190116_3172_AI_Larping_0001.0.jpg&w=640&q=75",
+            "title" :  "Inside The Larps That Let Human Players Experience AI Life",
+            "body" : "I’m sitting on a grubby hotel carpet, eyes closed, hands extended in front of me, waiting to die. I’m playing an artificial intelligence in a live-action role-playing game (larp), and my human counterpart has the legal right to murder me if he wants. Or, looking at it another way, he can choose to scrub the code on a faulty experiment and start over. Within the game, he’s participating in a commercial software trial for an AI — me — that’s been developed to suit his emotional needs. If he doesn’t think I’m serving those needs well enough, he can reset me to my factory defaults. With a casual tap on my outstretched hands, he can instruct me to forget all our previous interactions and become a friendly blank, eager to help him face his issues.",
+            "author" : "Tasha Robinson",
+            "tag" : "tech",
+            "readTime" : 2,
+            "createdAt" : "1663255302000",
+            "id" : "42"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/107100740-1659990005663-IMG_9329.jpeg?v=1659990148&w=740&h=416&ffmt=webp",
+            "title" :  "Nuclear Waste Recycling Startup Wants To Fix Nuclear",
+            "body" : "Ed McGinnis knows a lot about the nuclear waste problem in the United States. He worked in U.S. Department of Energy from 1991 to 2021 and dealt directly with the U.S. government’s failed effort to build a nuclear waste repository in Yucca Mountain, Nevada. “I certainly have the tire tracks on my back” from trying to lead the United States to develop and execute a long-term storage plan for nuclear waste, McGinnis told CNBC in a phone conversation in June.",
+            "author" : "Ed McGinnis",
+            "tag" : "startups",
+            "readTime" : 2,
+            "createdAt" : "1663255302000",
+            "id" : "43"
+        },
+        {
+            
+            "imgUrl" :"https://static.independent.co.uk/2021/10/14/06/13142419-cfcd12e4-05d8-45f7-b7ce-c334499651e2.jpg?quality=75&width=990&auto=webp&crop=982:726,smart",
+            "title" :  "Vicky Pattison Talks Body Confidence And Inspiring Women",
+            "body" : "Vicky Pattison has been unveiled in a new fashion campaign with lingerie brand Pour Moi that’s all about body positivity. The former Geordie Shore star models a variety of different underwear sets – as well as pyjamas and activewear – in the glamorous shoot. Showcasing the Pour Moi x Vicky Pattison Edit, the 33-year-old says: “Body confidence to me is learning to love the skin you’re in – embracing every inch of your body, shunning society’s ideals of what is considered ‘attractive’ and celebrating your uniqueness! “We’re all fabulously flawed and that’s what makes us human and beautiful. Big butt, little butt, huge boobs, itty bitty ones, cellulite, rolls, flat stomach, tall or small – we are all perfect in our own way – and once you realise that and learn to appreciate your body as so much more than a number on a scale – that is body confidence.”",
+            "author" : "Katie Wright",
+            "tag" : "self",
+            "readTime" : 2,
+            "createdAt" : "1663255302000",
+            "id" : "44"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/107118323-1663157319589-gettyimages-1243218812-AA_14092022_865123.jpeg?v=1663179863&w=750&h=422&vtcrop=y",
+            "title" :  "Russian Forces Are Demoralized And Degraded, Ukraine Says",
+            "body" : "After Ukraine’s stunning successes in recapturing Russian-occupied territory in northeast and southern Ukraine over the last week, the pressure is now on Kyiv to maintain the momentum in its counteroffensive. Western governments have hailed Ukraine’s “significant progress” in the war after Kyiv announced it had reclaimed more than 8,000 square kilometers (3,088 square miles) of Russian-occupied territory since the start of September. Ukraine’s counterattacks prompted Russian forces to retreat from the Kharkiv region in the northeast of the country while Kyiv announced that the Ukrainian flag was once again being raised in hundreds of villages across the area.",
+            "author" : "Holly Ellyatt",
+            "tag" : "politics",
+            "readTime" : 2,
+            "createdAt" : "1663255302000",
+            "id" : "45"
+        },
+        {
+            
+            "imgUrl" :"https://centaur-wp.s3.eu-central-1.amazonaws.com/designweek/prod/content/uploads/2022/08/24154848/clearing-resized.jpg",
+            "title" :  "Moves And Changes In The Design Industry",
+            "body" : "London-based creative agency The Clearing has appointed former McLaren CMO and Interbrand CEO John Allert as chairman. Allert says, “As a former client of The Clearing, I’ve always been struck by the team’s unique combination of capability and humility, and I’m delighted to be joining to help them write the next chapter in their development.”",
+            "author" : "Steve Lidbury",
+            "tag" : "design",
+            "readTime" : 2,
+            "createdAt" : "1663255202000",
+            "id" : "46"
+        },
+        {
+            
+            "imgUrl" :"https://media.cnn.com/api/v1/images/stellar/prod/220913153028-01-develop-confidence-children-wellness-stock.jpg?c=16x9&q=h_720,w_1280,c_fill",
+            "title" :  "How To Help Kids Develop The Confidence To Try New Things",
+            "body" : "One might hope that children’s capacity for boredom would be matched by an appetite for all things new – if only parenting were so easy. Trying new things is difficult for many children, whether a different food, activity or skill. They like what they know, and they know what they like. Access to novelty and the unknown was cut off these past few years. There was less exposure to other people’s cooking, limited extracurricular activities and traveling, and fewer playdates with new friends whose homes have different smells, foods and rules, among other missed opportunities. Making matters worse, Covid-19 turned the world into a scarier place, where all things new and unknown came with an additional risk of getting sick.",
+            "author" : "Elissa Strauss",
+            "tag" : "health",
+            "readTime" : 2,
+            "createdAt" : "1663255202000",
+            "id" : "47"
+        },
+        {
+            
+            "imgUrl" :"https://www.sciencenews.org/wp-content/uploads/2022/01/011922_lg_jwst_feat-1440x700.jpg",
+            "title" :  "The James Webb Space Telescope Has Reached Its New Home At Last",
+            "body" : "The James Webb Space Telescope has finally arrived at its new home. After a Christmas launch and a month of unfolding and assembling itself in space, the new space observatory reached its final destination, a spot known as L2. Guiding the telescope to L2 is “an incredible accomplishment by the entire team,” said Webb’s commissioning manager Keith Parrish in a January 24 news conference announcing the arrival. “The last 30 days, we call that ’30 days on the edge.’ We’re just so proud to be through that.” But the team’s work is not yet done. “We were just setting the table. We were just getting this beautiful spacecraft unfolded and ready to do science. So the best is yet to come,” he said.",
+            "author" : "Lisa Grossman",
+            "tag" : "science",
+            "readTime" : 2,
+            "createdAt" : "1663255202000",
+            "id" : "48"
+        },
+        {
+            
+            "imgUrl" :"https://source.unsplash.com/random/200x200?sig=1",
+            "title" :  "Uzbekistan Embraces Heritage To Secure Cultural Future",
+            "body" : "Samarkand is one of the key Great Silk Road sites – a crown jewel of Uzbekistan’s cultural legacy. This summer the city hosted the 6th edition of the international congress, entitled the “Cultural heritage of Uzbekistan: Foundation of New Renaissance”, bringing together participants from 40 countries.",
+            "author" : "Galina Polonskaya",
+            "tag" : "culture",
+            "readTime" : 2,
+            "createdAt" : "1663255202000",
+            "id" : "49"
+        },
+        {
+            
+            "imgUrl" :"https://www.theverge.com/_next/image?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2Fc6liC491CdlxlreKGT-N22bS3mM%3D%2F0x0%3A2040x1360%2F2000x1333%2Ffilters%3Afocal(1020x680%3A1021x681)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F13718249%2FVRG_ILLO_3176_001.jpg&w=1440&q=75",
+            "title" :  "How To Protect Humans In A Fully Automated Society",
+            "body" : "People have been worried about machines taking jobs for a very long time. As early as 1930, John Maynard Keynes was warning about the new scourge of technological unemployment, which he termed as “unemployment due to our discovery of means of economizing the use of labor outrunning the pace at which we can find new uses for labor.” In short, automating ourselves out of a paycheck. The fear has only grown more powerful in the software age. In one recent story, a few automation upgrades ended up making 20 workers redundant at a small 3D-modeling company. A recent McKinsey study estimated that as many as half of current jobs could be automated, and predicted 400 million jobs worldwide will be automated into nothingness by 2030.",
+            "author" : "Russell Brandom",
+            "tag" : "tech",
+            "readTime" : 2,
+            "createdAt" : "1663255102000",
+            "id" : "50"
+        },
+        {
+            
+            "imgUrl" :"https://image.cnbcfm.com/api/v1/image/107105908-1660833119665-Pettawatt84_copy.jpg?v=1660834479&w=740&h=416&ffmt=webp",
+            "title" :  "Startup Trying To Make Fusion With Insanely Powerful Lasers Rallies Investors",
+            "body" : "As the effects of climate change become more obvious, the promise of nuclear fusion — a virtually unlimited source of carbon-free energy — is getting a new wave of attention. The field has drawn almost $5 billion in funding, with recent interest off the charts. One of the newest efforts to commercialize fusion comes from startup Focused Energy, founded by a pair of physics professors with expertise in extremely high-powered lasers, Todd Ditmire and Markus Roth. The startup launched last summer and has a strong bench of veterans, including Prav Patel, who spent 23 years at the Lawrence Livermore National Laboratory.",
+            "author" : "Catherine Clifford",
+            "tag" : "startups",
+            "readTime" : 2,
+            "createdAt" : "1663255102000",
+            "id" : "51"
+        },
+        {
+            
+            "imgUrl" : "https://static.independent.co.uk/2022/09/15/11/14316edb5a4a93da6dbb05aed4ca166dY29udGVudHNlYXJjaGFwaSwxNjYzMzE4Mzcx-2.68818668.jpg?quality=75&width=990&auto=webp&crop=982:726,smart",
+            "title" :  "How And Why To Take Time To Grieve After Losing Someone You Love",
+            "body" : "After a difficult week since the death of his mother the Queen, King Charles is to have a private day of reflection today, ahead of his mother’s funeral on Monday. Charles has returned to his Highgrove home in Gloucestershire and is not expected to attend any public events, as was laid out in the planning of the aftermath of the death of the Queen, known as “London Bridge”. Although the King’s duties may be different from those of the regular working public, he has had to work intense hours over the past week, while also travelling around the UK.",
+            "author" : "Imy Brighty-Potts",
+            "tag" : "self",
+            "readTime" : 2,
+            "createdAt" : "1663255102000",
+            "id" : "52"
+        },
+        {
+            
+            "imgUrl" :"https://source.unsplash.com/random/200x200?sig=1",
+            "title" :  "It’s Been 30 Years. Here’s Why USA Still Can’t Agree On Charter Schools",
+            "body" : "Whether it’s student loan forgiveness or banning books, education policy in the United States can get contentious. One controversial education policy that goes back to the 1990s is the charter school. A charter school is a publicly funded school that is established by a private group. The group creates a contract with the state and local government, which lays out specific accountability requirements. The government has the ability to shut the school down if it doesn’t meet those standards. What’s more, these schools are exempt from certain state laws and regulations that traditional public schools must follow, but they are expected to meet educational standards.",
+            "author" : "Charlotte Morabito",
+            "tag" : "politics",
+            "readTime" : 2,
+            "createdAt" : "1663255102000",
+            "id" : "53"
+        },
+        {
+            
+            "imgUrl" :"https://www.designnews.com/sites/designnews.com/files/styles/article_featured_standard/public/circuitschematic.jpg?itok=x0NMEV6b",
+            "title" :  "A Github Emerges For Hardware Design",
+            "body" : "Software developers have for years been able to use the GitHub platform to fully track and document the products they have been developing. However, no such tool has been available for hardware designers, who have had to jury-rig Excel spreadsheets and rely on .pdfs and e-mails to keep track of their projects. Enter a startup called AllSpice. The company was created by CEO Valentina Ratner and Chief Technical Officer Kyle Dumont, both engineers and Harvard MBA graduates who saw first-hand the challenges of hardware engineers trying to keep tabs of complex projects.",
+            "author" : "Spencer Chin",
+            "tag" : "design",
+            "readTime" : 2,
+            "createdAt" : "1663255002000",
+            "id" : "54"
+        },
+        {
+            
+            "imgUrl" :"https://content21.sabervivirtv.com/medio/2022/09/12/emergencia-sanitaria-en-nueva-york-por-la-reaparicion-de-la-polio_11405dc2_1024x576.jpg",
+            "title" :  "Polio Has Reemerged. Who Should Get A Polio Vaccine Now?",
+            "body" : "New York’s governor has declared a state of emergency after health officials detected poliovirus in the wastewater of five counties – evidence the disease is circulating. The declaration also follows a report from the US Centers for Disease Control and Prevention of an unvaccinated person in Rockland County, New York, who was diagnosed with paralytic polio this summer – the first case identified in the United States in nearly a decade. Understandably, these events have sparked a lot of questions: Why does one case of polio worry officials? What does it mean to find poliovirus in wastewater? Who should be worried about contracting the disease? If someone had the vaccine years ago, are they still protected now?",
+            "author" : "Deblina Chakraborty",
+            "tag" : "health",
+            "readTime" : 2,
+            "createdAt" : "1663255002000",
+            "id" : "55"
+        },
+        {
+            
+            "imgUrl" :"https://www.sciencenews.org/wp-content/uploads/2022/04/040522_lk_mars-sounds_feat-1380x776.jpg",
+            "title" :  "Mars Has Two Speeds Of Sound",
+            "body" : "On Mars, the speed of sound depends on its pitch. All sound travels slower through Mars’ air compared with Earth’s. But the higher-pitched clacks of a laser zapping rocks travels slightly faster in the thin Martian atmosphere than the lower-pitched hum of the Ingenuity helicopter, researchers report April 1 in Nature. These sound speed measurements from NASA’s Perseverance rover are part of a broader effort to monitor minute-by-minute changes in atmospheric pressure and temperature, like during wind gusts, on the Red Planet.",
+            "author" : "Liz Kruesi",
+            "tag" : "science",
+            "readTime" : 2,
+            "createdAt" : "1663255002000",
+            "id" : "56"
+        }
+    ]
+}

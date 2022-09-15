@@ -1,0 +1,45 @@
+$background-color: #ffffff;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: auto;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* Ancho */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Base */
+  ::-webkit-scrollbar-track {
+    background: var(--clr-main-lighter);
+  }
+  
+  /* Scroll */
+  ::-webkit-scrollbar-thumb {
+    background: var(--clr-main-dark);
+   
+  }
+  
+  /* Hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-nav);
+  }

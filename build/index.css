@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: auto;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+/* Ancho */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Base */
+::-webkit-scrollbar-track {
+  background: var(--clr-main-lighter);
+}
+
+/* Scroll */
+::-webkit-scrollbar-thumb {
+  background: var(--clr-main-dark);
+}
+
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--clr-nav);
+}
+
+.search-nav {
+  display: flex;
+  background-color: #ffffff;
+  margin: 0;
+  padding-inline: 4em;
+  align-items: center;
+  justify-content: center;
+}
+.search-nav h1 {
+  font-weight: 1400;
+  font-size: xx-large;
+  font-family: "Times New Roman", serif;
+}
+.search-nav label {
+  width: 100%;
+}
+.search-nav label input {
+  width: 100%;
+}
+
+.tags-nav ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  justify-content: center;
+  height: 3em;
+  align-items: center;
+}
+.tags-nav ul li {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: grey;
+  cursor: pointer;
+  padding: 0.2em;
+  display: inline-block;
+}
+.tags-nav ul li:hover {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+}
+
+.featured-list {
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-areas: "firstPost secondPost fithPost" "firstPost thirdPost fithPost" "firstPost fourthPost fithPost";
+}
+.featured-list .post {
+  margin-inline: 1em;
+}
+.featured-list .post:first-child {
+  align-items: center;
+  grid-area: firstPost;
+}
+.featured-list .post:first-child .post__content {
+  right: 0;
+  margin-left: auto;
+}
+.featured-list .post:nth-child(2) {
+  grid-area: secondPost;
+}
+.featured-list .post:nth-child(3) {
+  grid-area: thirdPost;
+}
+.featured-list .post:nth-child(4) {
+  grid-area: fourthPost;
+}
+.featured-list .post:last-child {
+  grid-area: fithPost;
+}
+.featured-list .post:first-child div, .featured-list .post:last-child div {
+  flex-direction: column;
+}
+.featured-list .post:first-child .post__content, .featured-list .post:last-child .post__content {
+  padding-block: 1em;
+}
+.featured-list .post:nth-child(2), .featured-list .post:nth-child(3), .featured-list .post:nth-child(4) {
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  height: 7em;
+}
+.featured-list .post:nth-child(2) br, .featured-list .post:nth-child(3) br, .featured-list .post:nth-child(4) br {
+  display: none;
+}
+.featured-list .post:nth-child(2) .post__content, .featured-list .post:nth-child(3) .post__content, .featured-list .post:nth-child(4) .post__content {
+  margin-block: 0;
+  padding-block: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.featured-list .post:nth-child(2) h3, .featured-list .post:nth-child(3) h3, .featured-list .post:nth-child(4) h3 {
+  width: 100%;
+  font-size: medium;
+}
+.featured-list .post:nth-child(2) p, .featured-list .post:nth-child(3) p, .featured-list .post:nth-child(4) p {
+  width: 75%;
+}
+.featured-list .post:nth-child(2) img, .featured-list .post:nth-child(3) img, .featured-list .post:nth-child(4) img {
+  height: 7em;
+  width: 7em;
+}
+
+.post {
+  margin: 0.5em;
+  transition: all 150ms ease-in-out;
+}
+.post .post__body {
+  color: grey;
+}
+.post .post__content .post__created-at {
+  font-size: smaller;
+}
+.post div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.post div p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.post img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 15em;
+}
+
+.post:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.post-list {
+  margin: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 15%;
+  border-top: 1px solid rgba(128, 128, 128, 0.375);
+  gap: 2em;
+  padding-top: 2em;
+}
+.post-list .post {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+}
+.post-list .post div {
+  justify-content: space-between;
+}
+.post-list .post img {
+  height: 8em;
+  width: 8em;
+}
+
+/*# sourceMappingURL=index.css.map */
