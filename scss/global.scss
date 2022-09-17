@@ -1,4 +1,7 @@
 $background-color: #ffffff;
+$hover-color : #dddf9a;
+$accent-color: #e3c6ad;
+$accent-color-dark:#F9D8D6;
 
 *{
     margin: 0;
@@ -30,16 +33,16 @@ body{
   
   /* Base */
   ::-webkit-scrollbar-track {
-    background: var(--clr-main-lighter);
+    background: $accent-color-dark;
   }
   
   /* Scroll */
   ::-webkit-scrollbar-thumb {
-    background: var(--clr-main-dark);
+    background: $accent-color;
    
   }
   
   /* Hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--clr-nav);
+    background: $hover-color;
   }

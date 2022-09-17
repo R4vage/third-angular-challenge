@@ -1,53 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Third Challenge</title>
-    <meta name="description" content="Third Challenge for Applaudo Studios's Trainee Program">
-    <meta name="author" content="Julian Marc">
-    <link rel="stylesheet" href="build/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
-</head>
+    <meta
+      name="description"
+      content="Third Challenge for Applaudo Studios's Trainee Program"
+    />
+    <meta name="author" content="Julian Marc" />
+    <link rel="stylesheet" href="build/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="search-nav">
-            <h1>Medium</h1>
-            <label><input><img></label>                
-
-        </nav>
-        <nav class="tags-nav">
-            <ul id="tags-list">
-                <li id="home-button">home</li>
-                <li class="js-tag-button">culture</li>
-                <li class="js-tag-button">tech</li>
-                <li class="js-tag-button">startups</li>
-                <li class="js-tag-button">self</li>
-                <li class="js-tag-button">politics</li>
-                <li class="js-tag-button">design</li>
-                <li class="js-tag-button">health</li>
-                <li class="js-tag-button">science</li>
-            </ul>
-        </nav>
+      <nav class="search-nav">
+        <h1>Medium</h1>
+        <label><input /><img /></label>
+      </nav>
+      <nav class="tags-nav">
+        <ul id="tags-list">
+          <li id="home-button">home</li>
+          <li class="js-tag-button">culture</li>
+          <li class="js-tag-button">tech</li>
+          <li class="js-tag-button">startups</li>
+          <li class="js-tag-button">self</li>
+          <li class="js-tag-button">politics</li>
+          <li class="js-tag-button">design</li>
+          <li class="js-tag-button">health</li>
+          <li class="js-tag-button">science</li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="featured-list" id="featured-list">
-
-        </section>
-        <section class="post-list" id="post-list">
-            
-        </section>
-
+      
+      <section class="featured-list" id="featured-list"></section>
+      
+      <section class="post-list" id="post-list"></section>
+      
+      <section class="post-modal" id="single-post-modal">
+        <div class="post-page" id="post-page">
+          <p class="post-page__cross" id="post-page__cross">X</p>
+          <form class="post-page__form" id="post-page__form">
+            <label for="title" class="post-page__title"><input name="title" readonly maxlength="78" min="15" autocomplete="off"/></label>
+            <img src="" alt="post-image" id="post-page__img" class="post-page__img"/>
+            <label for="image-url" class="post-page__image-url" id="post-page__image-url">Image URL: <input name="image-url" autocomplete="off"></label>
+            <label for="author" class="post-page__author"> Author: 
+              <input name="author" readonly autocomplete="off" size="0"/>
+            </label>
+            <label for="tag" class="post-page__tags">In:
+              <select name="tag" disabled >
+                <option>Culture</option>
+                <option>Tech</option>
+                <option>Startups</option>
+                <option>Self</option>
+                <option>Politics</option>
+                <option>Design</option>
+                <option>Health</option>
+                <option>Science</option>
+              </select>
+          </label>
+            <label><textarea name="body" readonly cols="80%" maxlength="450" minlength="50" rows="5" autocomplete="off"></textarea></label>
+          </form>
+          <div class="post-page__buttons">
+            <button class="post__delete" id="post__delete">Delete Post</button>
+            <button class="post__edit" id="post__edit">Edit Post</button>
+            <input type="submit" form="post-page__form" value="Save Changes">
+          </div>
+        </div>
+      </section>
     </main>
 
-
-
     <script src="js/scripts.js" type="module"></script>
-</body>
-
+  </body>
 </html>
