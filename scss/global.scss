@@ -1,7 +1,8 @@
 $background-color: #ffffff;
-$hover-color : #dddf9a;
-$accent-color: #e3c6ad;
-$accent-color-dark:#F9D8D6;
+$hover-color : #dee2e6;
+$accent-color: #ced4da;
+$accent-color-darker: #6c757d;
+$accent-color-dark:#937b7a;
 
 *{
     margin: 0;
@@ -33,16 +34,16 @@ body{
   
   /* Base */
   ::-webkit-scrollbar-track {
-    background: $accent-color-dark;
+    background: $hover-color;
   }
   
   /* Scroll */
   ::-webkit-scrollbar-thumb {
-    background: $accent-color;
+    background: $accent-color-darker;
    
   }
   
   /* Hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: $hover-color;
+    background: $accent-color-dark;
   }

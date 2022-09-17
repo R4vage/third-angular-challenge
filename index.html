@@ -22,7 +22,7 @@
     <header>
       <nav class="search-nav">
         <h1>Medium</h1>
-        <label><input /><img /></label>
+        <label for="search" class="search-label"><input name="search" class="search-input" id="search-input" autocomplete="off"/><img src="assets/search.svg" id="search-image"/></label>
       </nav>
       <nav class="tags-nav">
         <ul id="tags-list">
@@ -41,21 +41,24 @@
     <main>
       
       <section class="featured-list" id="featured-list"></section>
-      
-      <section class="post-list" id="post-list"></section>
+      <section class="other-posts">
+        <div class="post-list" id="post-list"></div>
+        <div class="post-list__pages" id="post-list__pages"></div>
+      </section>
+      <button class="add-post" id="add-post">Add Post</button>
       
       <section class="post-modal" id="single-post-modal">
         <div class="post-page" id="post-page">
           <p class="post-page__cross" id="post-page__cross">X</p>
           <form class="post-page__form" id="post-page__form">
-            <label for="title" class="post-page__title"><input name="title" readonly maxlength="78" min="15" autocomplete="off"/></label>
+            <label for="title" class="post-page__title"><p>Title: </p><textarea name="title" readonly maxlength="78" minlength="15" autocomplete="off" placeholder="Input the post's title" required></textarea></label>
             <img src="" alt="post-image" id="post-page__img" class="post-page__img"/>
-            <label for="image-url" class="post-page__image-url" id="post-page__image-url">Image URL: <input name="image-url" autocomplete="off"></label>
+            <label for="image-url" class="post-page__image-url" id="post-page__image-url">Image URL: <input name="image-url" autocomplete="off" placeholder="Input the url to the post's image" required minlength="16"></label>
             <label for="author" class="post-page__author"> Author: 
-              <input name="author" readonly autocomplete="off" size="0"/>
+              <input name="author" readonly autocomplete="off" size="0" placeholder="Input post's author" required minlength="6"/>
             </label>
             <label for="tag" class="post-page__tags">In:
-              <select name="tag" disabled >
+              <select name="tag" disabled>
                 <option>Culture</option>
                 <option>Tech</option>
                 <option>Startups</option>
@@ -66,12 +69,12 @@
                 <option>Science</option>
               </select>
           </label>
-            <label><textarea name="body" readonly cols="80%" maxlength="450" minlength="50" rows="5" autocomplete="off"></textarea></label>
+            <label class="post-page__body"><p>Body: </p><textarea name="body" readonly cols="80%" maxlength="450" minlength="50" rows="3" autocomplete="off" placeholder="Input post's main text" required></textarea></label>
           </form>
           <div class="post-page__buttons">
             <button class="post__delete" id="post__delete">Delete Post</button>
             <button class="post__edit" id="post__edit">Edit Post</button>
-            <input type="submit" form="post-page__form" value="Save Changes">
+            <input type="submit" form="post-page__form" value="Save Changes" id="post__save">
           </div>
         </div>
       </section>

@@ -2,24 +2,46 @@
 
 .search-nav {
   display: flex;
+  margin-top: 1em;
   background-color: global.$background-color;
-  margin: 0;
   padding-inline: 4em;
   align-items: center;
   justify-content: center;
+  gap: 1em;
 
   h1 {
     font-weight: 1400;
     font-size: xx-large;
     font-family: "Times New Roman", serif;
   }
-
-  label {
+  .search-label {
+    display: flex;
+    align-items: center;
     width: 100%;
+    border-radius: 15px;
+    max-width: 40em;
     input {
+      all: unset;
       width: 100%;
+      text-align:left ;
+      cursor: text;
+      height: 1.5em;
+      padding-left: 0.5em;
+      padding-block: 0.2em ;
+      padding-right:2em;
+      border-radius: 15px;
+    }
+
+    img{
+      margin-left: -2em;
+      cursor: pointer;
+    }
+    input:focus{
+      border: 2px solid black;
+
     }
   }
+
 }
 
 .tags-nav {
@@ -124,7 +146,7 @@
 .post {
   margin: 0.5em;
   transition: all 150ms ease-in-out;
-
+  
   .post__content {
     overflow: hidden;
     .post__body {
@@ -150,27 +172,26 @@
 }
 
 .post:hover {
-  background-color: antiquewhite;
+  background-color: global.$accent-color;
   cursor: pointer;
   transform: scale(1.05);
 }
 
 .post-list {
-  margin: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-inline: 15%;
-  border-top: 1px solid rgba(128, 128, 128, 0.375);
+  width: 75%;
+ 
   gap: 2em;
-  padding-top: 2em;
+
 
   .post {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
-    gap: 1em;
+    gap: 4em;
 
     div {
       justify-content: space-between;
@@ -199,7 +220,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 75%;
+    min-height: 75vh;
     background-color: aliceblue;
     min-width: 75%;
     border-radius: 15px;
@@ -213,7 +234,7 @@
       height: auto;
       max-width: 100%;
       object-fit: contain;
-      max-height: 18em;
+      max-height: 15em;
       border-radius: 3px 15px 3px 15px;
       border: 4px groove grey;
     }
@@ -223,7 +244,7 @@
       width: 80%;
       align-items: center;
       input{
-        background-color: antiquewhite;
+        background-color: global.$accent-color;
         cursor: text;
         width: 80%;
         padding-inline: 0.5em;
@@ -242,7 +263,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 2em;
+      padding: 1em;
       gap: 1em;
       input {
         all: unset;
@@ -253,11 +274,19 @@
         padding-inline: 0.5em;
         padding-block:0.2em;
         border-radius: 15px;
-        width: 95%;
+        width: 100%;
         font-size: large;
         font-weight: 600;
+        word-wrap: break-word;
+        height: max-content;
+        margin-bottom: auto;
         input {
           width: 100%;
+        }
+
+        p{
+          display: none;
+          background-color: none;
         }
       }
 
@@ -283,7 +312,11 @@
           padding-inline: 0.4em;
         }
       }
-
+      .post-page__body{
+        p{
+          display: none;
+        }
+      }
       textarea {
         all: unset;
         width: 100%;
@@ -300,7 +333,8 @@
       button, input {
         all: unset;
         cursor: pointer;
-        background-color: rgb(249, 223, 188);
+        background-color: global.$accent-color-dark;
+        color: white;
         padding: 0.5em;
         border-radius: 5px 3px 5px 3px;
       }
@@ -310,30 +344,130 @@
 }
 
 
-.post-page__form--edit{
+.post-page__form--edit {
   .post-page__title {
-    background-color:antiquewhite;
+    
     input {
       cursor: text!important;
     }
   }
   .post-page__author {
     input{
-      background-color: antiquewhite!important;
+      background-color: global.$accent-color!important;
       cursor: text!important;
     }
 
   }
   .post-page__tags {
     select {
-      background-color: antiquewhite!important;
+      background-color: global.$accent-color!important;
       cursor: pointer!important;
     }
   }
  
   textarea{
-    background-color: antiquewhite!important;
+    background-color: global.$accent-color!important;
     
     cursor: text!important;
   }
 }
+
+.other-posts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  margin-top: 2em;
+  
+  padding: 1em;
+  padding-bottom: 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.375);
+}
+
+.post-list__pages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  align-self: center;
+  width: fit-content;
+  align-self: center;
+  border-radius: 15px;
+  text-align: center;
+  vertical-align: center;
+  background-color: global.$accent-color;
+  padding: 0;
+
+
+  .pages__arrows{
+    background-color: var(--clr-main-light);
+    padding: 0.5em;
+  }
+
+  .pages__dots{
+    cursor: default;
+  }
+  
+  .pages__page{
+    background-color: var(--clr-main-light);
+    padding-block: 0.5em;
+    padding-inline: 0.7em;
+  }
+
+  .pages__current{
+    cursor: default!important;
+    background-color: global.$accent-color-dark;
+    color: white;
+
+  }
+
+  .pages__arrows, .pages__page{
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  
+  .pages__arrows:hover, .pages__page:hover{
+    background-color: global.$hover-color;
+    transform: scale(1.2);
+  }
+
+  .pages__current:hover{
+    transform: unset;
+    background-color: global.$accent-color-dark;
+  }
+}
+
+.add-post{
+  all: unset;
+  display: block;
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 4em;
+  background-color: global.$accent-color;
+  padding-inline: 1em;
+  padding-block: 0.5em;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+
+
+
+@media (max-width:800px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

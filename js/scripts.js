@@ -1,9 +1,13 @@
 import defaultPosts from "./defaultPosts.json" assert { type: "json" };
 
-const featuredList = document.getElementById("featured-list");
-const currentList = document.getElementById("post-list");
 const navButtons = document.querySelectorAll(".js-tag-button");
 const homeButton = document.getElementById("home-button");
+
+const searchInput = document.getElementById("search-input");
+const searchImage = document.getElementById("search-image");
+
+const featuredList = document.getElementById("featured-list");
+const currentList = document.getElementById("post-list");
 
 const modal = document.getElementById("single-post-modal");
 const singlePost = document.getElementById("post-page");
@@ -14,6 +18,10 @@ const postImgUrl = document.getElementById("post-page__image-url");
 const postEdit = document.getElementById("post__edit");
 const postDelete = document.getElementById("post__delete");
 const postSave = document.getElementById("post__save");
+const postLabels = document.querySelectorAll(".post-page__form label");
+const addPostButton = document.getElementById("add-post");
+
+const pages = document.getElementById("post-list__pages");
 
 class Post {
   constructor(imgUrl, title, body, author, tag, id) {
@@ -45,8 +53,12 @@ class Storage {
     return JSON.parse(localStorage.getItem(this.key));
   }
 
-  setStorage(value) {
+  setValue(value) {
     this.value = value;
+  }
+
+  setStorage(value) {
+    this.setValue(value);
     localStorage.setItem(this.key, JSON.stringify(value));
   }
 
@@ -62,8 +74,8 @@ class Storage {
     this.setStorage(this.value);
   }
 
-  addItem(task) {
-    this.value.push(task);
+  addItem(item) {
+    this.value.unshift(item);
     this.setStorage(this.value);
   }
 
@@ -72,7 +84,7 @@ class Storage {
   }
 
   getLastId() {
-    return parseInt(this.value[this.value.length - 1].id);
+    return Math.max(...this.value.map((item) => parseInt(item.id)));
   }
 
   getItemIndex(id) {
@@ -88,21 +100,15 @@ class UI {
       day: "numeric",
     });
     const postHtml = `<img src="${post.imgUrl}">
-            <div class="post__content">
-                <h3>${post.title}</h3>
-                <p class="post__body">${post.body.replace(
-                  /^(.{90}[^\s]*).*/,
-                  "$1"
-                )}</p>
-                <br>
-                <div>
-                    <p class="post__author">${post.author} in ${post.tag}</p>
-                    <p class="post__created-at">${date} - ${
-      post.readTime
-    }min read</p>
-                </div>
-            </div>`;
-
+      <div class="post__content">
+        <h3>${post.title}</h3>
+        <p class="post__body">${post.body}</p>
+        <br>
+        <div>
+          <p class="post__author">${post.author} in ${post.tag}</p>
+          <p class="post__created-at">${date} - ${post.readTime}min read</p>
+        </div>
+      </div>`;
     return postHtml;
   }
 
@@ -112,6 +118,7 @@ class UI {
       let div = document.createElement("div");
       div.className = "post";
       div.onclick = () => {
+        modalState.setViewMode();
         modalState.changeModal(post);
       };
       div.innerHTML = this.preparePost(post);
@@ -142,28 +149,219 @@ class UI {
     postForm.elements["image-url"].value = post.imgUrl;
     postForm.elements["tag"].value = post.tag;
     postImg.src = post.imgUrl;
+    console.log(post.imgUrl);
+  }
+
+  changeModalToEdit() {
+    postForm.className = "post-page__form--edit";
+    postForm.elements["title"].readOnly = false;
+    postForm.elements["author"].readOnly = false;
+    postForm.elements["body"].readOnly = false;
+    postForm.elements["tag"].disabled = false;
+    postImgUrl.style.display = "flex";
+    postEdit.style.display = "none";
+    postSave.style.display = "block";
+    postLabels[0].children[0].style.display = "block";
+    postLabels[4].children[0].style.display = "block";
+  }
+
+  changeModalToView() {
+    postForm.className = "";
+    postForm.elements["title"].readOnly = true;
+    postForm.elements["author"].readOnly = true;
+    postForm.elements["body"].readOnly = true;
+    postForm.elements["tag"].disabled = true;
+    postImgUrl.style.display = "none";
+    postSave.style.display = "none";
+    postEdit.style.display = "block";
+    postLabels[0].children[0].style.display = "none";
+    postLabels[4].children[0].style.display = "none";
+  }
+
+  hideFeatured() {
+    featuredList.style.display = "none";
+  }
+
+  showFeatured() {
+    featuredList.style.display = null;
+  }
+
+  addPages(currentPage, totalPages) {
+    if (totalPages < 2) {
+      pages.innerHTML = "";
+      pages.style.display = "none";
+    } else {
+      if (totalPages > 1) {
+        pages.innerHTML = "";
+        pages.style.display = "flex";
+        const pagesList = [];
+        for (var i = currentPage - 3; i < currentPage + 3; i++) {
+          if (i > 0 && i <= totalPages) {
+            pagesList.push(i);
+          }
+        }
+        if (currentPage > 1) {
+          let newP = document.createElement("p");
+          newP.className = "pages__arrows";
+          newP.innerText = "<";
+          newP.onclick = () => {
+            pageState.changePage(currentPage - 1);
+            this.addPages(currentPage - 1, totalPages);
+          };
+          pages.appendChild(newP);
+        }
+        if (pagesList[0] > 1) {
+          let newP = document.createElement("p");
+          newP.className = "pages__dots";
+          newP.innerText = "⋯";
+          pages.appendChild(newP);
+        }
+        pagesList.map((page) => {
+          let newP = document.createElement("p");
+          if (page === currentPage) {
+            newP.className = "pages__page pages__current";
+          } else {
+            newP.className = "pages__page";
+          }
+          newP.innerText = page;
+          newP.onclick = () => {
+            pageState.changePage(page);
+            this.addPages(page, totalPages);
+          };
+          pages.appendChild(newP);
+        });
+        if (pagesList[pagesList.length - 1] < totalPages) {
+          let newP = document.createElement("p");
+          newP.className = "pages__dots";
+          newP.innerText = "⋯";
+          pages.appendChild(newP);
+        }
+        if (currentPage < totalPages) {
+          let newP = document.createElement("p");
+          newP.className = "pages__arrows";
+          newP.innerText = ">";
+          newP.onclick = () => {
+            pageState.changePage(currentPage + 1);
+            this.addPages(currentPage + 1, totalPages);
+          };
+          pages.appendChild(newP);
+        }
+      } else {
+        console.log("here");
+        pages.style.display = "none";
+      }
+    }
   }
 }
 
 class PageState {
   constructor(homePage) {
-    this.currentPage = homePage;
-    this.goToHome();
+    this.currentSection = homePage;
+    this.currentPage = 1;
+    this.currentTotalPages = 0;
+    this.currentSearchValue = "";
+    this.goToHome(1);
   }
 
-  goToHome() {
-    currentUI.displayPosts(postStorage.value.slice(0, 5), featuredList);
-    currentUI.displayPosts(postStorage.value.slice(5, 10), currentList);
-    this.currentPage = "home";
+  setCurrentSection(section) {
+    this.currentSection = section;
   }
-  changePage(page) {
-    if (page === "home") {
-      this.goToHome();
+
+  setCurrentPage(page) {
+    this.currentPage = page;
+  }
+
+  setCurrentTotalPages(totalPages) {
+    this.currentTotalPages = totalPages;
+  }
+
+  setCurrentSearchValue(value) {
+    this.currentSearchValue = value;
+  }
+
+  goToHome(page) {
+    let totalPages = Math.ceil(postStorage.value.length / 5);
+    currentUI.displayPosts(postStorage.value.slice(0, 5), featuredList);
+    currentUI.showFeatured();
+    currentUI.displayPosts(
+      postStorage.value.slice(5 * page, 5 * (page + 1)),
+      currentList
+    );
+    currentUI.addPages(page, totalPages - 1);
+    this.setCurrentPage(page);
+    this.setCurrentTotalPages(totalPages);
+    this.setCurrentSection("home");
+  }
+  changeSection(section, page) {
+    if (section === "home") {
+      this.goToHome(page);
     } else {
-      let filteredPosts = postStorage.value.filter((post) => post.tag === page);
+      currentUI.showFeatured();
+      let filteredPosts = postStorage.value.filter(
+        (post) => post.tag === section
+      );
+      let totalPages = Math.ceil(filteredPosts.length / 5);
+      currentUI.addPages(page, totalPages - 1);
       currentUI.displayPosts(filteredPosts.slice(0, 5), featuredList);
-      currentUI.displayPosts(filteredPosts.slice(5, 10), currentList);
-      this.currentPage = page;
+      currentUI.displayPosts(
+        filteredPosts.slice(5 * page, 5 * (page + 1)),
+        currentList
+      );
+      this.setCurrentSection(section);
+      this.setCurrentPage(page);
+      this.setCurrentTotalPages(totalPages);
+    }
+  }
+
+  changePage(page) {
+    if (this.currentSection === "home") {
+      currentUI.displayPosts(
+        postStorage.value.slice(5 * page, 5 * (page + 1)),
+        currentList
+      );
+      currentUI.addPages(page, this.currentTotalPages - 1);
+    } else if (this.currentSection === "search") {
+      let formattedValue = this.currentSearchValue.trim().toLowerCase();
+      let filteredPosts = postStorage.value.filter((post) =>
+        post.title.toLowerCase().includes(formattedValue)
+      );
+      currentUI.displayPosts(
+        filteredPosts.slice(5 * (page-1), 5 * (page)),
+        currentList
+      );
+      console.log(this.currentTotalPages, page)
+      currentUI.addPages(page, this.currentTotalPages);
+    } else {
+      let filteredPosts = postStorage.value.filter(
+        (post) => post.tag === this.currentSection
+      );
+      currentUI.displayPosts(
+        filteredPosts.slice(5 * page, 5 * (page + 1)),
+        currentList
+      );
+      currentUI.addPages(page, this.currentTotalPages - 1);
+    }
+    this.setCurrentPage(page);
+  }
+
+  searchPage(value, page) {
+    if (value === "" || !value) {
+      this.goToHome(1);
+    } else {
+      this.setCurrentSearchValue(value);
+      this.setCurrentSection("search");
+      let formattedValue = value.trim().toLowerCase();
+      currentUI.hideFeatured();
+      let filteredPosts = postStorage.value.filter((post) =>
+        post.title.toLowerCase().includes(formattedValue)
+      );
+      let totalPages = Math.ceil(filteredPosts.length / 5);
+      this.setCurrentTotalPages(totalPages)
+      currentUI.displayPosts(
+        filteredPosts.slice(5 * page, 5 * (page + 1)),
+        currentList
+      );
+      currentUI.addPages(page, totalPages);
     }
   }
 }
@@ -189,22 +387,12 @@ class ModalState {
 
   setEditMode() {
     this.setMode("edit");
-    postForm.className = "post-page__form--edit";
-    postForm.elements["title"].readOnly = false;
-    postForm.elements["author"].readOnly = false;
-    postForm.elements["body"].readOnly = false;
-    postForm.elements["tag"].disabled = false;
-    postImgUrl.style.display = "flex";
+    currentUI.changeModalToEdit();
   }
 
   setViewMode() {
     this.setMode("view");
-    postForm.className = "";
-    postForm.elements["title"].readOnly = true;
-    postForm.elements["author"].readOnly = true;
-    postForm.elements["body"].readOnly = true;
-    postForm.elements["tag"].disabled = true;
-    postImgUrl.style.display = "none";
+    currentUI.changeModalToView();
   }
 }
 
@@ -215,12 +403,12 @@ const modalState = new ModalState();
 
 navButtons.forEach((button) => {
   button.onclick = () => {
-    pageState.changePage(capitalize(button.innerText));
+    pageState.changeSection(capitalize(button.innerText), 1);
   };
 });
 
 homeButton.onclick = () => {
-  pageState.goToHome();
+  pageState.goToHome(1);
 };
 
 modalCross.onclick = () => {
@@ -244,13 +432,40 @@ postForm.onsubmit = function (event) {
     postForm.elements["tag"].value,
     unmodifiedPost.id
   );
-  modalState.setPost(post);
-  postStorage.modifyItem(post.id, post);
-  pageState.changePage(pageState.currentPage);
-  console.log(pageState.currentPage);
+
+  if (postStorage.getItemIndex(post.id) !== -1) {
+    postStorage.modifyItem(post.id, post);
+  } else {
+    postStorage.addItem(post);
+  }
+  modalState.changeModal(post);
+  pageState.changeSection(pageState.currentSection, pageState.currentPage);
 };
 
 function capitalize(word) {
   let wordLowerCase = word.toLowerCase();
   return wordLowerCase[0].toUpperCase() + wordLowerCase.substring(1);
 }
+
+addPostButton.onclick = () => {
+  let post;
+  if (pageState.currentSection !== "home") {
+    post = new Post(
+      "",
+      "",
+      "",
+      "",
+      pageState.currentSection,
+      postStorage.getLastId() + 1
+    );
+  } else {
+    post = new Post("", "", "", "", "Culture", postStorage.getLastId() + 1);
+  }
+  modalState.setEditMode();
+  modalState.changeModal(post);
+};
+
+searchImage.onclick = () => {
+  console.log(searchInput.value);
+  pageState.searchPage(searchInput.value, 0);
+};
