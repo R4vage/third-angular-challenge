@@ -9,6 +9,7 @@
       content="Third Challenge for Applaudo Studios's Trainee Program"
     />
     <meta name="author" content="Julian Marc" />
+    <link rel="icon" href="/assets/logo.png">
     <link rel="stylesheet" href="build/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,28 +22,35 @@
   <body>
     <header>
       <nav class="search-nav">
-        <h1>Medium</h1>
+        <h1 class="logo" id="logo">Medium</h1>
         <label for="search" class="search-label"><input name="search" class="search-input" id="search-input" autocomplete="off"/><img src="assets/search.svg" id="search-image"/></label>
+        
+        <button class="nav-toggle"> 
+          <span class="hamburger">
+
+          </span>
+      </button>
       </nav>
       <nav class="tags-nav">
         <ul id="tags-list">
-          <li id="home-button">home</li>
-          <li class="js-tag-button">culture</li>
-          <li class="js-tag-button">tech</li>
-          <li class="js-tag-button">startups</li>
-          <li class="js-tag-button">self</li>
-          <li class="js-tag-button">politics</li>
-          <li class="js-tag-button">design</li>
-          <li class="js-tag-button">health</li>
-          <li class="js-tag-button">science</li>
+          <li id="home-button" class="nav__item">home</li>
+          <li class="js-tag-button nav__item">culture</li>
+          <li class="js-tag-button nav__item">tech</li>
+          <li class="js-tag-button nav__item">startups</li>
+          <li class="js-tag-button nav__item">self</li>
+          <li class="js-tag-button nav__item">politics</li>
+          <li class="js-tag-button nav__item">design</li>
+          <li class="js-tag-button nav__item">health</li>
+          <li class="js-tag-button nav__item">science</li>
         </ul>
       </nav>
     </header>
     <main>
-      
+      <h3 class="featured-title" id="featured-title">Latest Posts</h3>
       <section class="featured-list" id="featured-list"></section>
       <section class="other-posts">
         <div class="post-list" id="post-list"></div>
+        <p class="post-list__warning" id="post-list__warning"></p>
         <div class="post-list__pages" id="post-list__pages"></div>
       </section>
       <button class="add-post" id="add-post">Add Post</button>
