@@ -65,12 +65,13 @@
       padding: 0.2em;
       display: inline-block;
     }
-    .nav-item:hover {
-      font-weight: 600!important;
-      color: black!important;
-    }
   }
 }
+
+/* .nav-item__hover:hover{
+      font-weight: 600!important;
+      color: black!important;
+} */
 
 .featured-list {
   align-items: center;
@@ -257,9 +258,14 @@
     }
     .post-page__cross {
       position: absolute;
-      right: 1em;
+      right: 0.7em;
       padding: 1em;
       cursor: pointer;
+      font-weight: 1000;
+      text-transform: uppercase;
+    }
+    .post-page__cross:hover{
+      transform: scale(1.1);
     }
 
     form {
@@ -340,6 +346,12 @@
         color: white;
         padding: 0.5em;
         border-radius: 5px 3px 5px 3px;
+        box-shadow: 0 0 0 0 black;
+      }
+
+      button:hover, input:hover {
+        transform: scale(1.05);
+        box-shadow: 2px 2px 3px 0 black;
       }
 
     }
@@ -463,6 +475,13 @@
   cursor: pointer;
   margin-top: 0.5em;
   margin-bottom: 1.5em;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 0 0 0 black;
+}
+
+.add-post:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 2px 3px 0 black;
 }
 
 
