@@ -10,3 +10,5 @@ Supports searching for a post, navigating trough different sections, modifying a
 The site has been developed using pure html, javascript and scss, which was precompiled using sass's watcher command. Both the original scss and compiled files are inside the scss and build folders respectively.
 The site was tested on Opera, Chrome, Firefox, OperaGX, IE and Edge.
 The site starts with a list of defaultPosts, located in the js folder, under defaultPosts.json. This file is retrieved using fetch instead of import, as to avoid compatibility issues with Firefox.
+
+Last, the site has been deployed to Netlify: https://unique-meerkat-19d41c.netlify.app
