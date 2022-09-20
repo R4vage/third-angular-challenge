@@ -123,13 +123,13 @@ class UI {
 
   displayPosts (posts, parent) {
     parent.style.overflow = "hidden";
-    parent.style.transform = "translateX (200vw)";
+    parent.style.transform = "translateX(200vw)";
 
     setTimeout (() => {
-      parent.style.visibility = "hidden";
-      pages.style.visibility = "hidden";
+      parent.style.opacity = 0;
+      pages.style.opacity = 0;
       addPostButton.style.display = "none";
-      parent.style.transform = "translateX (-400vw)";
+      parent.style.transform = "translateX(-400vw)";
       parent.innerHTML = "";
       setTimeout (() => {
         posts.forEach ((post) => {
@@ -141,10 +141,10 @@ class UI {
           };
           div.innerHTML = this.preparePost (post);
           parent.appendChild (div);
-          parent.style.visibility = null;
-          parent.style.transform = "translateX (0)";
+          parent.style.opacity = null;
+          parent.style.transform = "translateX(0)";
           parent.style.overflow = null;
-          pages.style.visibility = null;
+          pages.style.opacity = null;
           addPostButton.style.display = null;
         });
       }, 200);
